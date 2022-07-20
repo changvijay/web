@@ -1,0 +1,29 @@
+16/07/2022 css day 1
+31) introduction to css
+<font> size of text can change using this tag
+<center> used to center the text
+bgcolor="#990000" to change the colour of the text
+layout -> in the html we use the table tag where it take more tag like th,tr,td
+by the way we can miss some tag it make error
+--------------------------------------------------------------------------------
+32) inline css (inside the tag)
+bgcolor ->in colorhunt or mdn copy the values of colour
+eg -> < body style = "background-color: #EAF6F6;">
+--------------------------------------------------------------------------------
+33 internal css(inside the head)
+some time the style will not work in wed page because of default style
+ex:
+in the hr tag by changing the bgcolor to #EAF6F6 it will not work so what we
+have to change the default style[border-style: none]
+to make single line
+border-style: none;
+border-top-style:dotted;
+--------------------------------------------------------------------------------
+34)
+External css
+create new folder and in that a file with named as file_name.css
+in html  page inside the head tag we have to link the css file by
+<link rel="stylesheet" href="css/file_name.css">
+--------------------------------------------------------------------------------
+35)
+How to dedug css code 
