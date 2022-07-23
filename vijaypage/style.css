@@ -1,0 +1,91 @@
+body{
+  background: linear-gradient(to bottom, skyblue, cornflowerblue);
+}
+h1{
+  
+  text-align: center;
+  font-family: 'League Script', cursive;
+  font-size: 3rem;
+}
+.cloud{
+  display: inline;
+  margin-top: 20px;
+  margin-left: 30px
+}
+.cloud1{
+  display: inline; 
+  margin-left: 30%;
+}
+.cloud2{
+  display: inline;
+  top: 60px;
+  right: 40px;
+}
+.intro{
+  background-position: center;
+  background-image: url("CSS/mountain.png");
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.myname{ 
+  margin-left: 25%;
+}
+.mypic{
+  margin-right: 20px;
+  display: inline;
+  width: 10%;
+  height: 10%;
+  border-style: solid;
+  border-radius: 100%;
+  float: left;
+}
+p{
+  font-size: large;
+  margin-left: 12%;
+  margin-top: 0;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 30%;
+  border-width: 5px;
+  color: white;
+}
+.myskill{
+  
+  display: inline;
+  width: 10%;
+  height: 10%;
+  border-style: solid;
+  border-radius: 100%;
+  float: right;
+  margin-right: 50%;
+  margin-top: 10%;
+}
+button{
+  margin-left: 40px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
